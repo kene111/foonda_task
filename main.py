@@ -10,13 +10,13 @@ import matplotlib.pyplot as plt
 class Plotter(object):
     """
 
-    This is class used to plot the graph of number of active users per date
+    This class is used to plot the graph of number of active users with respect to the date.
 
     input parameters:
-    url : This is the url that contains the data needed.
-    start_date: used to filter the data to get the first date needed
-    end_date: used to filter the data to get the last date needed
-    graph_type: used to display graph in either bar format or pie format
+    url : This is the url endpoint that contains the data needed.
+    start_date: used to filter the data to get the first date needed.
+    end_date: used to filter the data to get the last date needed.
+    graph_type: used to display graph in either bar format or pie format.
 
 
     """
