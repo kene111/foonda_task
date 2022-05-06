@@ -16,7 +16,7 @@ main.py : This is the python file that plots the required graph.
   - foo\Scripts\activate
 5) run the following: 
   - pip install -r requirements.txt 
-5) use the following to test code:
+5) use the following to plot graph:
   - python main.py --start_date 03-01-2022 --end_date 14-01-2022
 6) to plot graph as pie chart (optional):
   - python main.py --start_date 03-01-2022 --end_date 14-01-2022 --graph_type pie
