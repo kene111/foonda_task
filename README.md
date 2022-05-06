@@ -1,6 +1,6 @@
 # foonda_task
 
-This is the solution code to the task.
+This is the solution code to the data engineering task.
 
 ### Repo Structure:
 
