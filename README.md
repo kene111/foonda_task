@@ -1,4 +1,4 @@
-# foonda_task
+# foondamate_task
 
 This is the solution code to the data engineering task.
 
