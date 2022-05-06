@@ -4,7 +4,7 @@ This is the solution code to the data engineering task.
 
 ### Repo Structure:
 
-main.py : This is the python file that plots the required graph.
+1) main.py : This is the python file that plots the required graph.
 
 
 ### How to run the script:
