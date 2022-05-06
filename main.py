@@ -62,14 +62,17 @@ class Plotter(object):
         
     
     def plot(self):
-        
+
+        # extract the key and value pair from data
         self.extract_key_value_(self.get_data_())
         
         assert self.start_date in self.keys_, f"The provided start date does not exist, earliest date available is: {list(self.keys_)[0]}."
         assert self.end_date in self.keys_, f"The provided end date does not exist, latest date available is: {list(self.keys_)[-1]}."
         
-        #This function updates the key value parameters with the new info
+        # This function filters the data using the cli inputs
         self.extract_data_()
+
+        # plot graph
         self.plot_graph_()
         
         return 
@@ -82,6 +85,8 @@ if __name__ == '__main__':
     parser.add_argument('-ed','--end_date', action='store', type=str, required=True, help="End date")
     parser.add_argument('-gt','--graph_type', action='store', type=str, required=False, help="Plot type, choose between bar and pie, default bar")
     args = parser.parse_args()
+
+    # url endpoint
     url = "http://sam-user-activity.eu-west-1.elasticbeanstalk.com/"
 
 
