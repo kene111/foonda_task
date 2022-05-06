@@ -14,7 +14,7 @@ This is the solution code to the data engineering task.
   - virtualenv foo
 4) activate the virtualenv using the following:
   - foo\Scripts\activate
-5) run the following: 
+5) run the following to install the necessary packages: 
   - pip install -r requirements.txt 
 5) use the following to plot graph:
   - python main.py --start_date 03-01-2022 --end_date 14-01-2022
