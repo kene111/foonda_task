@@ -5,6 +5,7 @@ This is the solution code to the data engineering task.
 ### Repo Structure:
 
 1) main.py : This is the python file that plots the required graph.
+2) images : Contain images of the graph output of the working code.
 
 
 ### How to run the script:
@@ -20,3 +21,9 @@ This is the solution code to the data engineering task.
   - python main.py --start_date 03-01-2022 --end_date 14-01-2022
 6) to plot graph as pie chart (optional):
   - python main.py --start_date 03-01-2022 --end_date 14-01-2022 --graph_type pie
+
+### Bar chart view
+![image1](images/image_1.png)
+
+### Pie chart view
+![image2](images/image_2.png)
