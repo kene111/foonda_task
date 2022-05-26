@@ -31,4 +31,4 @@ This is the solution code to the data engineering [task](https://careers.foondam
 ### Minor Challenge
 Libraries like plotext that could be used to plot graphs in the CLI interface failed to work effectively on my system. Hence, creating a small window displaying the graph was next option available. Below is the visualization provided when attempts were made to plot graphs in the cli.
 
-![image3](images/image_3.png)
+![image3](images/image__.png)
