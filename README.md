@@ -27,3 +27,8 @@ This is the solution code to the data engineering [task](https://careers.foondam
 
 ### Pie chart view
 ![image2](images/image_2.png)
+
+### Minor Challenge
+Libraries like plotext that could be used to plot graphs in the CLI interface failed to work effectively on my system. Hence, creating a small window displaying the graph was next option available. Below is the visualization provided when attempts were made to plot graphs in the cli.
+
+![image3](images/image_3.png)
