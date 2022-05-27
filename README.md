@@ -11,7 +11,7 @@ This is the solution code to the data engineering [task](https://careers.foondam
 ### How to run the script:
 1) clone git repo to your local computer
 2) use your command prompt or desired terminal (make sure to be in the same directory as the main.py and requirements.txt)
-3) create a virtual enviroment, using: 
+3) create a virtual enviroment, using the command below (note: foo is the name of the virtual enviroment): 
   - virtualenv foo
 4) activate the virtualenv using the following:
   - foo\Scripts\activate
